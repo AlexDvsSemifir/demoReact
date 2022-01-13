@@ -27,3 +27,5 @@ export class Recuperateur extends React.Component {
     )
   }
 }
+
+export default Recuperateur
