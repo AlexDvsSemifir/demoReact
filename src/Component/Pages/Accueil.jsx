@@ -10,7 +10,6 @@ import Recette2 from "../recette2/Recette2";
 import Controlled from "../Controlled";
 import ComposantFonction from "../ComposantFonction";
 import MonProvider from "../Context/MonProvider";
-import ContextProvider from "../Exercice7/ContextProvider";
 
 export const Accueil = (props) => {
     return ( 
