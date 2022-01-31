@@ -10,6 +10,8 @@ import Recette2 from "../recette2/Recette2";
 import Controlled from "../Controlled";
 import ComposantFonction from "../ComposantFonction";
 import MonProvider from "../Context/MonProvider";
+import ContextUser from "../Exercice7/ContextUser";
+import ContextProvider from "../Exercice7/ContextProvider";
 
 export const Accueil = (props) => {
     return ( 
@@ -28,6 +30,7 @@ export const Accueil = (props) => {
             <Controlled/>
             <ComposantFonction heritage="Une montre"/>
             <MonProvider />
+            <ContextProvider />
         </Fragment>
     )
 };
