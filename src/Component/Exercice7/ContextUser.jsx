@@ -24,7 +24,8 @@ export const ContextUser = () => {
 
     return ( 
         <Fragment>
-            <h2>ContextUser</h2>
+            <h3>ContextUser</h3>
+            <p>Composant ContextUser qui récupère le contexte</p>
             <p>J'utilise le theme {theme}</p>
             <Button variant={theme} onClick={handleClick}>Boutton</Button>
         </Fragment>

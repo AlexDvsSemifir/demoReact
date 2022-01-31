@@ -29,7 +29,6 @@ export const Accueil = (props) => {
             <Controlled/>
             <ComposantFonction heritage="Une montre"/>
             <MonProvider />
-            <ContextProvider />
         </Fragment>
     )
 };

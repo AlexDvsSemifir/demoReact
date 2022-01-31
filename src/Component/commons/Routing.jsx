@@ -8,6 +8,7 @@ import UseEffectPage from '../Pages/UseEffect'
 import AjoutUtilisateur from "../Exercice4/AjoutUtilisateur";
 import AfficheE5Creation from "../Exercice5/Tentative/AfficheE5Creation"
 import NavBar from "./NavBar";
+import ContextProvider from "../Exercice7/ContextProvider";
 
 let pages = [
     {
@@ -33,6 +34,10 @@ let pages = [
     {
         to: "/Exercice5",
         nom :"Exercice 5"
+    },
+    {
+        to: "/Exercice7",
+        nom :"Exercice 7"
     },
 ]
 
@@ -70,6 +75,7 @@ export const Routing = (props) => {
                     <Route path="UseEffectPage" element={<UseEffectPage/>} />   
                     <Route path="Exercice4" element={<AjoutUtilisateur/>} />   
                     <Route path="Exercice5" element={<AfficheE5Creation/>} />   
+                    <Route path="Exercice7" element={<ContextProvider/>} />   
                     {/* 
                     Home route : 
                         - Redirection. Path est l'arrivé, et element est la destination.
