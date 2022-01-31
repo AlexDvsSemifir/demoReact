@@ -40,7 +40,7 @@ export const CAjoutUtilisateur = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         e.stopPropagation();
-        props.ajoutUtilisateur(utilisateur);
+        props.CAjoutUtilisateur(utilisateur);
     }
 
     return ( 
